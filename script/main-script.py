@@ -16,7 +16,7 @@ print("5. prints 67 67 times")
 print("6. loading...")
 print("7. please dont use this option, just don't.")
 print("8. 7 applies to me as well")
-print("9. <coming soon>")
+print("9. Rock, Paper, Scissors")
 print("="*50)
 
 while True:
@@ -79,9 +79,30 @@ while True:
          print(r"Can't find /localhost/pc:99856/connection/user/guest/99/access/true/edit=false\Desktop\pc simu\options\8\option_8.exe")
 
     elif choice == "9":
-         print("This option is still in development.")
-         print("check back later in case this option is")
-         print("available.")
+         import random
+         print("="*50)
+         print("Rock, Paper, Scissors!")
+         print("="*50)
+         print("Choose: rock, paper, or scissors")
+         player = input("Your choice: ").lower()
+         
+         if player not in ["rock", "paper", "scissors"]:
+             print("Invalid choice! Please enter rock, paper, or scissors.")
+             continue
+         
+         choices = ["rock", "paper", "scissors"]
+         computer = random.choice(choices)
+         print(f"Computer chose: {computer}")
+         
+         if player == computer:
+             print("It's a tie!")
+         elif (player == "rock" and computer == "scissors") or \
+              (player == "paper" and computer == "rock") or \
+              (player == "scissors" and computer == "paper"):
+             print("You win!")
+         else:
+             print("You lose!")
+         print("="*50)
 
     else:
        print("That option is not available or hasn't been added!")
