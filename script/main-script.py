@@ -2,6 +2,7 @@ import os
 import time
 import math
 import sys
+import random
 
 
 print("="*50)
@@ -20,7 +21,11 @@ print("9. Rock, Paper, Scissors")
 print("10. <coming soon>")
 print("="*50)
 
+choices = ["rock", "paper", "scissors"]
+
 while True:
+
+    computer = random.choice(choices)
 
     cookie = "Cookies are the best! "*9990
 
@@ -80,19 +85,22 @@ while True:
          print(r"Can't find /localhost/pc:99856/connection/user/guest/99/access/true/edit=false\Desktop\pc simu\options\8\option_8.exe")
 
     elif choice == "9":
-         import random
          print("="*50)
          print("Rock, Paper, Scissors!")
          print("="*50)
-         print("Choose: rock, paper, or scissors")
+         print("Choose: (R)ock, (P)aper, or (S)cissors")
          player = input("Your choice: ").lower()
          
-         if player not in ["rock", "paper", "scissors"]:
-             print("Invalid choice! Please enter rock, paper, or scissors.")
+         if player == "r":
+             player = "rock"
+         elif player == "p":
+             player = "paper"
+         elif player == "s":
+             player = "scissors"
+         else:
+             print("Invalid choice! Please enter r, p, or s.")
              continue
          
-         choices = ["rock", "paper", "scissors"]
-         computer = random.choice(choices)
          print(f"Computer chose: {computer}")
          
          if player == computer:
@@ -105,7 +113,7 @@ while True:
              print("You lose!")
          print("="*50)
 
-               elif choice == "10":
+    elif choice == "10":
          print("This option is still in development.")
          print("check back later in case this option is")
          print("available.")
