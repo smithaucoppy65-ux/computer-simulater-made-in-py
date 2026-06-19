@@ -37,7 +37,7 @@ while True:
        time.sleep(1.4)
        print("This is 100% independent.")
        time.sleep(1.5)
-       print("I'am a cookie lover.")
+       print("I'm a cookie lover.")
        time.sleep(1.6)
        print("="*50)
   
