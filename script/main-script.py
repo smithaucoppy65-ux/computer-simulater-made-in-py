@@ -17,7 +17,6 @@ print("6. loading...")
 print("7. please dont use this option, just don't.")
 print("8. 7 applies to me as well")
 print("9. <coming soon>")
-print("Q. Quit")
 print("="*50)
 
 while True:
@@ -83,11 +82,6 @@ while True:
          print("This option is still in development.")
          print("check back later in case this option is")
          print("available.")
-
-    elif choice.upper() == "Q":
-         print("Thanks for using the computer simulator!")
-         print("Goodbye!")
-         sys.exit(0)
 
     else:
        print("That option is not available or hasn't been added!")
