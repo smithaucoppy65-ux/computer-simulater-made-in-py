@@ -105,9 +105,9 @@ while True:
          
          if player == computer:
              print("It's a tie!")
-         elif (player == "rock" and computer == "scissors") or \
-              (player == "paper" and computer == "rock") or \
-              (player == "scissors" and computer == "paper"):
+         elif (player == "rock" and computer == "computer") or \
+              (player == "paper" and computer == "computer") or \
+              (player == "scissors" and computer == "computer"):
              print("You win!")
          else:
              print("You lose!")
