@@ -17,6 +17,7 @@ print("6. loading...")
 print("7. please dont use this option, just don't.")
 print("8. 7 applies to me as well")
 print("9. Rock, Paper, Scissors")
+print("10. <coming soon>")
 print("="*50)
 
 while True:
@@ -103,6 +104,11 @@ while True:
          else:
              print("You lose!")
          print("="*50)
+
+               elif choice == "10":
+         print("This option is still in development.")
+         print("check back later in case this option is")
+         print("available.")
 
     else:
        print("That option is not available or hasn't been added!")
