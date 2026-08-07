@@ -6,6 +6,7 @@ import random
 import json
 import datetime
 import zoneinfo
+import webbrowser
 
 #welcome screen
 print("="*59)
@@ -17,13 +18,13 @@ print("2. More info")
 print("3. cookies")
 print("4. print in %")
 print("5. prints 67 67 times")
-print("6. loading...")
+print("6. updater...")
 print("7. please dont use this option, just don't.")
 print("8. 7 applies to me as well")
 print("9. Rock, Paper, Scissors")
 print("===================== pi area =======================")
 print("10. print pi+")
-print("11. print pi Pro ")
+print("11. print pi Pro (Will result in alowed output limit)")
 print("=====================================================")
 print("12. time checker")
 print("===================== decoys ========================")
@@ -32,8 +33,11 @@ print("14. decoy file name reader")
 print("=====================================================")
 print("15. time checker +")
 print("16. just stupid!")
-print("17. <coming soon>")
-
+print("17. in development(don't use)")
+print("18. Google shearch (in beta)")
+print("19. conect to a fobidden website")
+print("20. <coming soon>")
+#test game at end
 #secrets are secrets
 print("="*59)
 
@@ -42,6 +46,9 @@ files = {}
 
 #tic-tac-toe
 choices = ["rock", "paper", "scissors", "F**k you"]
+
+consule_name = "computer simulator"
+
 
 #while loop
 while True:
@@ -54,6 +61,8 @@ while True:
     
     #option-picker
     choice = input("Option: ")
+
+    
 
 
     #choices
@@ -77,7 +86,8 @@ while True:
        print(cookie)
         
     elif choice == "4":
-         for i in range(1, 101):
+        #it broke it :(
+         for i in range(1,1186):
              print(f"{i}%")
              time.sleep(0.1)
      
@@ -89,7 +99,7 @@ while True:
              print(f"\rLoading: {i}%", end="", flush=True)
              time.sleep(0.05)
          print()
-         print("Loading complete!")
+         print("update complete!")
 
     
     elif choice == "7":
@@ -109,6 +119,7 @@ while True:
          print("please wait...")
          time.sleep(9.9)
          #just a website i took down 100% liget website
+         #it's totaly liget
          print(r" https://www.totalyliget.com/localsever/id:945589/port:9963/localhost/authidentification/trucode:********redirect=cloud.totalyliget.com/...")
          time.sleep(9.9)
          print(r" https://cloud.totalyliget.com/cloud/sever/identification:sesusfall/redirect=severs.totalyliget.com/...")
@@ -123,7 +134,8 @@ while True:
          print(r" https://81265-pc.totalyliget.com/%USERPROFILE%/Desktop/computer-simulater/options/8/file_type/exe/language/en/-/gb/exe/main/sorce/code-language/py/option_8.exe")
          time.sleep(9.9)
          print("option_8.exe wasnt found")
-        
+         #:)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+
     elif choice == "9":
          print("="*50)
          print("Rock, Paper, Scissors!")
@@ -191,9 +203,30 @@ while True:
         #LOL
 
     elif choice == "17":
+        print("option in development")
+        print("loading test/option/17 ...")
+        time.sleep(5.5)
+        print(consule_name)#no.17
+
+    elif choice == "18":
+        print("--- Google Search (Beta) ---")
+        query = input("What would you like to search for on Google? ")
+        if query.strip():
+            formatted_query = query.strip().replace(" ", "+")
+            search_url = "https://www.google.com/search?q=" + formatted_query
+            print("Searching for '" + query + "'...")
+            print("Click here to open: " + search_url)
+
+    elif choice == "19":
+        print("loading https://www.totalyliget.com/localpc/356989999999999")
+        print("ERRORE:USER_TRYIED_ACSECING_PRIVITE_DATA")
+        print("Try: restarting the ruoter, uninstalling you OS")
+
+    elif choice == "20":
         print("This option is still in development.")
         print("check back later in case this option is")
         print("available.")
+
 
     elif choice == "":
         print("i knew it you'll be here eventraly")
@@ -201,5 +234,74 @@ while True:
       
       #1t w1ll c0m3 0n 7h3 d4t3 o1/o1/2oEo
 
+    elif errore == "synatic":
+        print("errore 404 code not found")
+
     else:
        print("That option is not available or hasn't been added!")
+
+#test game
+#M/1 = block
+#00 = ship/00 no.2 = cube
+#4 = spike
+#i = platform
+#> = jump boost
+#    mm               
+#    mmm               
+#    mmmm                 
+#    mmmmm                  
+#    mmmmmm                     
+#    mmmmmm00mmmmmmmm                          
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    44                     
+#    4                                                                         
+#    4                                                                         
+#    4                                                                         
+#    4                                                                                    
+#    44                     
+#    444                     
+#    4444444444                                
+#    44                       
+#    1                                        
+#    4                                  
+#    1414141414                       
+#    mmmmmmmmmmmmmmmm00mmmmmmmm 
+#    mmmmmmmmmmmmmmmm
+#    mmmmmmmmmmmmmmm
+#    mmmmmmmmmmm                                   
+#                                  
+#            ---I
+#                                    
+#           ---I
+#                             
+#    ---------I
+#           mm                   
+#    mmmmmmmmm                      
+#    mmmmmmmm                           
+#    mmmmmmmm                            
+#    mmmmmmm                     
+#    mmmmmmm                            
+#         ----I                         
+#             I                            
+#             I                   
+#             I                             
+#            I                          
+#         ----I                              
+#    mmmmmmmm                                                  
+#    mmmmmmm                              
+#    mmmmmmmm>                  
+#    mmmmmmmmmmmmmm                                                                                       
+#                                                                                                                         
+#    .,,.,.,... ,.,.,.,.,,....,..,,,,.,,,,,,.,,,,,,..,.,.,.,,....,..,,.,,.,..,,.,.,... ,.,.,.,.,,....,..,,,,.,,,,,,. ,.,,.
+#    _____________________________________________________________________________________________________________________
+#    you win!
