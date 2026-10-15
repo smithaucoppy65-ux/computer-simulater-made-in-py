@@ -8,11 +8,13 @@ import datetime
 import zoneinfo
 import webbrowser
 
+
 #welcome screen
 print("="*59)
 print("Welcome to the computer simulator!")
 print("="*59)
 print("Select an option below:")
+print(". crashes the consel, litraly press enter")
 print("1. Print pi")
 print("2. More info")
 print("3. cookies")
@@ -24,7 +26,7 @@ print("8. 7 applies to me as well")
 print("9. Rock, Paper, Scissors")
 print("===================== pi area =======================")
 print("10. print pi+")
-print("11. print pi Pro")
+print("11. print pi Pro (Will result in alowed output limit)")
 print("=====================================================")
 print("12. time checker")
 print("===================== decoys ========================")
@@ -36,7 +38,8 @@ print("16. just stupid!")
 print("17. in development(don't use)")
 print("18. Google shearch (in beta)")
 print("19. conect to a fobidden website")
-print("20. <coming soon>")
+print("20. almost done...")
+print("21. <coming soon>")
 #test game at end
 #secrets are secrets
 print("="*59)
@@ -99,7 +102,9 @@ while True:
              print(f"\rLoading: {i}%", end="", flush=True)
              time.sleep(0.05)
          print()
-         print("update complete!")
+         print("No Update Availibe")
+         print("Computer Simulater Updater sevice(CSU)™&℠")
+         #("update complete!")
 
     
     elif choice == "7":
@@ -112,6 +117,9 @@ while True:
          print("i told you not to i wish you could listen >>>:((((((((((((((((")
          print("since you chose this option time to let you wait about 2 seconds then you get the main menu again")
          time.sleep(2.0)
+         print("try:restarting the router, cheaking the astablished connection, uninstalling your os")
+         print("jk i'm making you wait a bit longer this time")
+         time.sleep(99.99)
 
     elif choice == "8":
          print("loading option_8.exe...")
@@ -135,6 +143,7 @@ while True:
          time.sleep(9.9)
          print("option_8.exe wasnt found")
          #:)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+         print("try:restarting your router, cheking the conection, unintsalling your os")
 
     elif choice == "9":
          print("="*50)
@@ -216,13 +225,24 @@ while True:
             search_url = "https://www.google.com/search?q=" + formatted_query
             print("Searching for '" + query + "'...")
             print("Click here to open: " + search_url)
+        else:
+            print("ERRORE409:WORD_NOT_FOUND")
+            print("try:")
+            print("Check the spelling, check the router,")
+            print(" uninstalling your os")
 
     elif choice == "19":
         print("loading https://www.totalyliget.com/localpc/356989999999999")
         print("ERRORE:USER_TRYIED_ACSECING_PRIVITE_DATA")
-        print("Try: restarting the ruoter, uninstalling you OS")
+        print("Try: restarting the ruoter, uninstall you OS")
 
     elif choice == "20":
+        print("still working on stuff this option will be availibe later!")
+        time.sleep(10.9)
+        print(":)")
+
+    
+    elif choice == "21":
         print("This option is still in development.")
         print("check back later in case this option is")
         print("available.")
@@ -230,15 +250,14 @@ while True:
 
     elif choice == "":
         print("i knew it you'll be here eventraly")
-        time.sleep(pi.pi)
+        time.sleep(NaN.NaN)
       
       #1t w1ll c0m3 0n 7h3 d4t3 o1/o1/2oEo
 
-    elif errore == "synatic":
-        print("errore 404 code not found")
-
     else:
-       print("That option is not available or hasn't been added!")
+       print("That option is not available or hasn't been added!☃")
+
+
 
 #test game
 #M/1 = block
@@ -291,7 +310,7 @@ while True:
 #    mmmmmmmm                            
 #    mmmmmmm                     
 #    mmmmmmm                            
-#         ----I                         
+#         ----I                          
 #             I                            
 #             I                   
 #             I                             
